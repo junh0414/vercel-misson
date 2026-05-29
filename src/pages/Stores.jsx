@@ -26,7 +26,7 @@ import StoreCard from '../components/StoreCard';
 import OrderBar from '../components/OrderBar';
 import { useCart } from '../context/CartContext';
 
-const API_URL = 'http://localhost:3001/stores';
+const API_URL = 'https://vercel-misson-ue4e.vercel.app/store';
 
 export default function Stores() {
   const { totalPrice } = useCart();
